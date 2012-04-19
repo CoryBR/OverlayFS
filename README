@@ -1,0 +1,9 @@
+OverlayFS
+===================
+OverlayFS is a user mode filesystem which creates an in-memory overlay of a folder. Changes are tracked per user, and erased within a minute of a user logging out. OverlayFS may not support creating subdirectories in memory or creating a file in a subdirectory (depends on the version of Windows you are using), but does support creating files in the root of the destination and supports modifying existing files within subdirectories.
+
+
+System Requirements
+===================
+Microsoft .NET Framework 3.0
+Dokan user mode file system driver 0.6.0 or higher <http://dokan-dev.net/en/>
